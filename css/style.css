@@ -20,11 +20,62 @@ a
 	text-align: center;
 }
 
+.collapsible-body , .collapsible-header
+{
+	background-color: white;
+	text-align: center;
+	opacity: 0.9;
+}
+
+.caja 
+{
+	text-align: center;
+	border-style: solid ;
+	border-width: 1px;
+	border-color: #34495e;
+	margin-top:10%; 
+	box-shadow: 5px 5px 10px #999;
+	overflow: hidden;
+	transition-property:box-shadow;
+	transition-duration:1s;
+	
+
+
+	
+}
+
+.caja:hover
+{	
+	box-shadow: 10px 10px 10px #999;
+
+
+}
+
+.caja  img 
+{	
+	
+	width: 150px;
+	height: auto;
+	margin-left: 20%;
+
+}
+
+ .active
+{
+	background-color: #34495e !important ;
+}
+
+
+
+
+
+
 
 footer
 {
 	background-color: #34495e !important;
 	margin-top:0px !important;
+	color: white;
 }
 
 .footer-copyright
